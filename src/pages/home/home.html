@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-fab top right edge>
+    <button ion-fab
+      (click)="goToClockPage()"><ion-icon name="battery-dead"></ion-icon>
+    </button>
+  </ion-fab>
+  <p>
+    Welcome to LettuceSleep. An application created by the LettuceDrink Corporation.
+  </p>
+  <h2>Sleep Methods</h2>
+
+  <ion-card *ngFor="let page of pages">
+    <a href=# (click)="openBrowser(page.link)">
+      <ion-card-header >{{page.title}}</ion-card-header>
+    </a>
+    <ion-card-content>{{page.desc}}</ion-card-content>
+  </ion-card>
+</ion-content>

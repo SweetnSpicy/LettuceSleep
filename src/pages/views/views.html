@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Views
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card *ngFor="let video of videos" (click)="playVideo(video)">
+    <ion-item>
+      <ion-avatar ion-start>
+        <img [src]="video.authorIcon" />
+      </ion-avatar>
+      <h2>{{video.author}}</h2>
+    </ion-item>
+    <img [src]="video.videoThumbnail" />
+    <ion-card-content>
+      <ion-card-title>
+        {{video.title}}
+      </ion-card-title>
+      <p>
+        {{video.description}}
+      </p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
