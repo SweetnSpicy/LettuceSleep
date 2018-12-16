@@ -88,6 +88,6 @@
     <plugin name="cordova-plugin-file" spec="6.0.1" />
     <plugin name="com.bunkerpalace.cordova.YoutubeVideoPlayer" spec="https://github.com/JonSmart/CordovaYoutubeVideoPlayer" />
     <engine name="browser" spec="5.0.4" />
-    <engine name="ios" spec="4.5.5" />
     <engine name="android" spec="7.0.0" />
+    <engine name="ios" spec="~4.5.5" />
 </widget>
