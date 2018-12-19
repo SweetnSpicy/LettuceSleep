@@ -20,6 +20,7 @@ export const YOUTUBE_VIDEOS: Video[] = [
     {
         //AIzaSyDKT629W5qscI7HkM2kucL2UubOr20olx4
         //apikey
+        // in git config: <preference name="YouTubeDataApiKey" value="AIzaSyDKT629W5qscI7HkM2kucL2UubOr20olx4" />
         author: 'Shady Aftermath',
         authorIcon: '../assets/imgs/eminem.jpg',
         videoThumbnail: '',
