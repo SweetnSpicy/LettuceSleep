@@ -11,6 +11,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <preference name="YouTubeDataApiKey" value="AIzaSyDKT629W5qscI7HkM2kucL2UubOr20olx4" />
     <preference name="ScrollEnabled" value="false" />
     <preference name="android-minSdkVersion" value="19" />
     <preference name="BackupWebStorage" value="none" />
@@ -87,7 +88,8 @@
     </plugin>
     <plugin name="cordova-plugin-file" spec="6.0.1" />
     <plugin name="com.bunkerpalace.cordova.YoutubeVideoPlayer" spec="https://github.com/JonSmart/CordovaYoutubeVideoPlayer" />
-    <engine name="browser" spec="5.0.4" />
     <engine name="android" spec="7.0.0" />
     <engine name="ios" spec="~4.5.5" />
+    <plugin name="cordova-plugin-youtube-video-player" spec="^2.3.0" />
+    <engine name="browser" spec="~5.0.4" />
 </widget>
