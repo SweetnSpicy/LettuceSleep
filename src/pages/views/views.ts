@@ -26,7 +26,7 @@ export class ViewsPage {
       if ( !this.song ) {
         //console.log('path: ' + this.file.applicationDirectory);
         //let path = (this.file.applicationDirectory + '../../assets/media/wii.mp3' ).replace(/^file:\/\//, '');
-        this.song = this.media.create( "../../assets/media/wii.mp3" );
+        this.song = this.media.create( "../../assets/media/WiiMusic.mp3" );
         this.song.play();
       }
         // if song is paused, don't recreate it; just play it
